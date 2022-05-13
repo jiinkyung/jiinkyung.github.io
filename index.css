@@ -1,0 +1,257 @@
+
+@font-face {
+    font-family: 'DungGeunMo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    display: block;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    font-family: 'GmarketSansMedium';    
+    
+}
+
+.menubar {
+    background-color: blanchedalmond;
+    width: 20%;
+    font-family: 'DungGeunMo';
+    
+
+}
+.myname {
+    font-weight: 600;
+    font-size: 40px;    
+    margin: 4% 3% 3% 2%;
+    position: fixed;
+    letter-spacing: 0.32em;
+    font-family: 'DungGeunMo';
+    
+}
+
+#me {
+    width: 250px;
+    height:250px;
+    position: fixed;
+    margin-top: 11%;
+    margin-left: 1.4%;
+    border-radius: 30%;
+    border: 5px solid burlywood;
+}
+li a{
+    display: block;
+    text-align: center;
+}
+.menu {
+    list-style-type: none;
+    padding-left: 0%;
+    margin-top: 32%;
+    margin-left: 90px;
+    position: fixed;
+    height: 100%;
+    font-size: 30px;
+   
+}
+.menubar a:hover {
+  text-decoration: none;
+}
+.menu a:hover {
+    
+    font-weight: bold;
+    background-color: burlywood;
+}
+.menubar a:visited{
+   color: black;
+}
+ul {
+    text-align: center;
+}
+li {
+    margin-bottom: 15px;
+}
+#section {
+    width: 80%;  
+    position: relative;
+    padding-bottom: 80px;
+    
+}
+h1{
+    text-shadow: 2px 2px 0px #bdbdbd;
+    font-family: 'DungGeunMo';
+}
+.icon {
+    font-size: 55px;
+    display: flex;
+    flex-direction: row;
+    margin: 0% 4% 0% 0%;
+  }
+
+
+#intro{
+    margin: 50px;
+}
+#intro_title{
+    margin-top: 10px;
+    font-weight: bold;
+}
+#intro_text{
+    font-size: 18px;
+    color: gray;
+    margin-top: 8px;
+   
+}
+.interest {
+    margin: 50px;
+}
+
+.tech_badges {
+    margin-top: 30px;
+}
+.badge_html {
+    width: 90px;
+    height: 30px;
+  }
+.badge_css {
+    width: 80px;
+    height: 30px;
+  }
+
+.badge_javascript {
+    width: 140px;
+    height: 30px;
+}
+.badge_python {
+    width: 100px;
+    height: 30px;
+}
+.badge_django {
+    width: 100px;
+    height: 30px;
+}
+.badge_android {
+    width: 160px;
+    height: 30px;
+}
+.top {
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+   
+    
+}
+
+#intro_rows {
+    width: 33%;
+    display: flex;
+    flex-direction: row;
+    
+}
+.intro_content{
+    display: flex;
+    flex-direction: column;
+}
+.bottom {
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    
+}
+.education {
+    margin: 50px;
+}
+.edu_info {
+    overflow: hidden;
+}
+#title-text {
+    font-size: 20px;
+    font-weight: bold;
+    color: #282828;
+    float: left;
+   
+  }
+#year-text {
+    font-size: 20px;
+    font-weight: bold;
+    color: #282828;
+    float: right;  
+      
+}
+#desc-text {
+    font-size: 15px;
+    padding-left: 15px;
+    margin-top: 0px;
+}
+.activities {
+    margin: 50px;
+}
+.activity_info {
+    overflow: hidden;
+}
+#likelion_img {
+    width: 300px;
+    height: 200px;
+}
+#project {
+    margin: 50px;
+}
+.project_info {
+    overflow: hidden;
+}
+#project_text {
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'DungGeunMo';
+}
+#contact {
+    margin: 50px;
+}
+#contact_logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+.contact_info {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.contact_title {
+    font-weight: bold;
+    font-size: 20px;
+}
+.contact_text {
+    color: gray;
+    font-weight: 18px;
+    margin-top: 4px;
+}
+a {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+   
+}
+.contact_info #intro_rows a:visited {
+    color: black;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;    
+	padding: 15px 0; 
+	text-align: center;
+	background: linen;
+
+}
